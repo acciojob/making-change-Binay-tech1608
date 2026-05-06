@@ -1,7 +1,8 @@
 const makeChange = (c) => {
   // your name here
+	let amount = c;
   const change = {
-	  q: 0,
+	  q: 0,	
 	  d: 0,
 	  n: 0,
 	  p: 0
@@ -19,6 +20,7 @@ const makeChange = (c) => {
   change.p = Math.floor(amount);
 
  return change;
+
 
 };
 
